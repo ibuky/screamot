@@ -1,8 +1,8 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloCordova",
+  "name": "Screamot",
+  "displayName": "Screamot",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "Simply a marmot scrams.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "^8.1.0",
+    "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-media": "^5.0.3",
     "ncp": "^2.0.0",
     "onsenui": "^2.10.10"
   },
@@ -22,7 +24,8 @@
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-media": {}
     },
     "platforms": [
       "android"
